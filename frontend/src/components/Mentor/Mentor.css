@@ -1,0 +1,117 @@
+.mentor {
+  background: var(--bg);
+  padding: 100px 0;
+  border-bottom: 4px solid var(--border);
+}
+
+.mentor__inner {
+  display: grid;
+  gap: 40px;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 40px;
+  border: 4px solid var(--border);
+  background: var(--bg-card);
+}
+
+.mentor__heading {
+  font-size: clamp(28px, 3vw, 44px);
+  margin-bottom: 20px;
+  max-width: 740px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.mentor__bio {
+  font-size: 16px;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  max-width: 740px;
+  margin-bottom: 24px;
+}
+
+.mentor__badge {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 14px 18px;
+  border: 4px solid var(--border);
+  background: var(--bg);
+  color: var(--text-primary);
+  width: fit-content;
+  margin-bottom: 36px;
+}
+
+.mentor__badge span:first-child {
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+}
+
+.mentor__badge span:last-child {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.mentor__stats {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+
+.mentor__stat {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.mentor__stat-value {
+  font-family: var(--font-display);
+  font-size: 32px;
+  font-weight: 900;
+  color: var(--accent);
+}
+
+.mentor__stat-label {
+  font-size: 12px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.mentor__skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.mentor__skill {
+  font-size: 12px;
+  padding: 8px 14px;
+  border: 4px solid var(--border);
+  color: var(--text-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.mentor__badge span:first-child {
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.mentor__badge span:last-child {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+@media (max-width: 900px) {
+  .mentor__inner {
+    padding: 28px;
+  }
+}

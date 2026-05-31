@@ -1,0 +1,78 @@
+.curriculum__heading {
+  font-size: clamp(32px, 4vw, 54px);
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.curriculum__sub {
+  color: var(--text-secondary);
+  max-width: 560px;
+  margin-bottom: 64px;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.curriculum__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.course-card {
+  background: var(--bg-card);
+  border: 4px solid var(--border);
+  padding: 32px;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.course-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-3px);
+}
+
+.course-card--capstone {
+  border-color: var(--accent);
+  background: rgba(255, 45, 149, 0.06);
+  grid-column: 1 / -1;
+}
+
+.course-card__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.course-card__level {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+  background: transparent;
+  padding: 6px 12px;
+  border: 4px solid var(--border);
+}
+
+.course-card--capstone .course-card__level {
+  border-color: var(--accent);
+}
+
+.course-card__modules {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.course-card__title {
+  font-size: 22px;
+  font-weight: 900;
+  margin-bottom: 12px;
+  color: var(--text-primary);
+}
+
+.course-card__desc {
+  font-size: 15px;
+  color: var(--text-secondary);
+  line-height: 1.75;
+}
