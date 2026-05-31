@@ -3,13 +3,13 @@ import { fetchCourses } from '../../api';
 import './Curriculum.css';
 
 const fallback = [
-  { _id: '1', title: 'Foundations of Programming', description: 'How the Web Actually Works', level: 'Beginner-friendly', modules: 6 },
-  { _id: '2', title: 'JavaScript and Interactivity', description: 'Making Pages come Alive', level: 'Practical', modules: 8 },
-  { _id: '3', title: 'React and Modern UI Development', description: 'Build Real UI like a Developer', level: 'Advanced', modules: 6 },
-  { _id: '4', title: 'Backend and Databases', description: 'The Engine Behind the App', level: 'Engineering', modules: 5 },
-  { _id: '5', title: 'AI - Powered Development', description: 'Build 100x Faster with AI', level: 'Engineering', modules: 4 },
-  { _id: '6', title: 'Deploy, Shift, Polish', description: 'Go Live like a Professional', level: 'Capstone', modules: null, duration: '4 weeks' },
-   { _id: '7', title: 'AI Tools you will Use throughout', description: 'Claude, ChatGPT, and more', level: 'Tools', isCapstone: true, modules: null},
+  { _id: '1', title: 'Foundations of Programming', description: 'How the Web Actually Works', level: 'Beginner', duration: '2 weeks' },
+  { _id: '2', title: 'JavaScript and Interactivity', description: 'Making Pages come Alive', level: 'Intermediate', duration: '1 weeks' },
+  { _id: '3', title: 'React and Modern UI Development', description: 'Build Real UI like a Developer', level: 'Advanced', duration: '2 weeks' },
+  { _id: '4', title: 'Backend and Databases', description: 'The Engine Behind the App', level: 'Advanced', duration: '2 weeks' },
+  { _id: '5', title: 'AI - Powered Development', description: 'Build 100x Faster with AI', level: 'Advanced', duration: '1 weeks' },
+  { _id: '6', title: 'Deploy, Shift, Polish', description: 'Go Live like a Professional', level: 'Capstone', duration: '2 weeks' },
+  { _id: '7', title: 'Tools Used Throughout the Course', description: 'ChatGPT, Claude, GitHub Copilot, and other AI & developer tools used in labs and projects', level: 'Tools', isCapstone: true},
 ];
 
 export default function Curriculum2() {
@@ -37,7 +37,7 @@ export default function Curriculum2() {
               <div className="course-card__top">
                 <span className="course-card__level">{c.level}</span>
                 <span className="course-card__modules">
-                  {c.isCapstone ? c.duration : `${c.modules} Modules`}
+                  {c.duration}
                 </span>
               </div>
               <h3 className="course-card__title">{c.title}</h3>

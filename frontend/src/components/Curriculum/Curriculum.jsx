@@ -28,7 +28,7 @@ export default function Curriculum() {
   return (
     <section id="curriculum">
       <div className="container">
-        <p className="section-label">02 — Curriculum</p>
+        <p className="section-label">01 — Curriculum</p>
         <h2 className="curriculum__heading">Full Stack & <br /> AI Professional</h2>
         <p className="curriculum__sub">
           Each track is a focused sprint into a modern technical stack — live whiteboard sessions,

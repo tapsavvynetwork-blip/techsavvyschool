@@ -9,7 +9,7 @@ const plans = [
     price: '₹14,999',
     period: '',
     features: ['Lifetime access to recordings', 'Project templates', 'Community Discord access', 'Certificate on completion'],
-    cta: 'Start Self-Paced',
+    cta: 'Start Learning',
     popular: false,
   },
   {
@@ -18,7 +18,7 @@ const plans = [
     price: '₹24,999',
     period: '',
     features: ['Live weekly studio sessions', '1:1 code reviews from senior mentor', 'Capstone project + portfolio review', 'Career & interview prep', 'Everything in Self-Paced'],
-    cta: 'Join Next Cohort',
+    cta: 'Join Advanced Cohort',
     popular: true,
   },
 ];
@@ -49,7 +49,7 @@ export default function Pricing() {
       <div className="container">
         <p className="section-label">04 — Pricing</p>
         <h2 className="pricing__heading">Investment in your AI career.</h2>
-        <p className="pricing__sub">EMI available. GST included. Refund within 7 days.</p>
+        <p className="pricing__sub">EMI available.</p>
 
         <div className="pricing__grid">
           {plans.map((p) => (

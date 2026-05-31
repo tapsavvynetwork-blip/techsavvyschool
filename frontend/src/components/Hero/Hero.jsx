@@ -10,14 +10,12 @@ export default function Hero() {
         <p className="hero__eyebrow">Next cohort opens · Live in India</p>
 
         <h1 className="hero__headline">
-          Master production AI,<br />
+          Master <br />Web Development & AI,<br />
           <span className="hero__headline--accent">RAG & LangChain</span><br />
-          in our virtual coding studio.
         </h1>
 
         <p className="hero__sub">
-          A senior-led, interactive programme for Indian developers. Deep dive into Python,
-          Data Science, Generative AI, LangChain and RAG — building real systems, not toy notebooks.
+          A 20-week live online program for Indian developers. Build real-world projects, get code reviews from senior mentors, and launch your career in web development and AI.
         </p>
 
         <div className="hero__actions">
@@ -28,9 +26,9 @@ export default function Hero() {
         <div className="hero__meta">
           <span>4.9★ rated</span>
           <span className="hero__dot" />
-          <span>1,800+ Indian engineers trained</span>
+          <span>800+ Indian engineers trained</span>
           <span className="hero__dot" />
-          <span>Cohort capped at 60</span>
+          <span>Cohort capped at 30</span>
         </div>
 
         <div className="hero__tags">

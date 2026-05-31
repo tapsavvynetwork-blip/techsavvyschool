@@ -18,8 +18,9 @@
 
 .hero__inner {
   position: relative;
-  max-width: 760px;
-  padding: 48px;
+  max-width: 960px;
+  padding: 28px;
+  padding-left: 20px;
   border: 4px solid var(--border);
   background: var(--bg-card);
 }
@@ -34,7 +35,7 @@
 }
 
 .hero__headline {
-  font-size: clamp(42px, 6vw, 78px);
+  font-size: clamp(25px, 4vw, 38px);
   font-weight: 900;
   line-height: 1.02;
   margin-bottom: 28px;

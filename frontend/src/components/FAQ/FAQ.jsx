@@ -3,11 +3,11 @@ import { fetchFAQs } from '../../api';
 import './FAQ.css';
 
 const fallback = [
-  { _id: '1', question: 'Who is this programme for?', answer: 'Working software engineers and serious CS students in India who want to move into AI engineering.' },
-  { _id: '2', question: 'Do I need prior AI / ML experience?', answer: 'No. We start from Python and Data Science and build up to LangChain, RAG and Gen AI.' },
-  { _id: '3', question: 'What are the live session timings?', answer: 'Live cohort sessions run on weekday evenings IST, with recordings posted within 24 hours.' },
-  { _id: '4', question: 'Is there a placement guarantee?', answer: 'No empty guarantees. What you get is real portfolio projects, 1:1 mentor reviews, mock interviews and a referral network.' },
-  { _id: '5', question: 'Can my company sponsor me?', answer: 'Yes — we provide GST invoices, and our Team tier supports private cohorts with custom curriculum.' },
+  { _id: '1', question: 'What does the curriculum cover?', answer: 'A blended curriculum covering full-stack development, AI foundations, machine learning workflows, LangChain, RAG, and production-ready deployment practices.' },
+  { _id: '2', question: 'Do I need prior AI / ML experience?', answer: 'No. The course starts with Python and data science basics, then builds up to applied AI engineering for modern web apps.' },
+  { _id: '3', question: 'How are the AI projects structured?', answer: 'Projects are built around real-world use cases with hands-on labs, mentor reviews, and incremental milestones to reinforce both code and model design.' },
+  { _id: '4', question: 'Can I customize the learning path?', answer: 'Yes. We offer flexible track guidance, and our curriculum adapts to your goals across full-stack and AI career paths.' },
+  { _id: '5', question: 'What support is included for job readiness?', answer: 'You get portfolio-ready project reviews, mock interviews, resume feedback, and access to our network of AI and software hiring partners.' },
 ];
 
 export default function FAQ() {
