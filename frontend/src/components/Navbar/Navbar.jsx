@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import './Navbar.css';
+import Logo from '../../assets/logo.png';
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -21,7 +22,13 @@ export default function Navbar() {
   return (
     <nav className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
       <div className="navbar__inner container">
-        <a href="/" className="navbar__logo">Tech Savvy School</a>
+        <a href="/" className="navbar__logo">
+          <img
+            src={Logo}
+            alt="Tech Savvy School"
+            style={{ width: '100%', maxWidth: '80px', height: 'auto' }}
+          />
+        </a>
 
         <ul className={`navbar__links ${menuOpen ? 'navbar__links--open' : ''}`}>
           {links.map((l) => (
